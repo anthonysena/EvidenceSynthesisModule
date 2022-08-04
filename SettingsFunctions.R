@@ -70,7 +70,7 @@ createEvidenceSynthesisModuleSpecifications <- function(evidenceSynthesisAnalysi
   checkmate::reportAssertions(collection = errorMessages)
   specifications <- list(settings = evidenceSynthesisAnalysisList,
                          module = "EvidenceSynthesisModule",
-                         version = "0.0.1-3",
+                         version = "0.0.1-5",
                          remoteRepo = "github.com",
                          remoteUsername = "anthonysena")
   class(specifications) <- c("EvidenceSynthesisModuleSpecifications", "ModuleSpecifications")
